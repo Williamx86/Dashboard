@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style_panel.css">
+    <link rel="stylesheet" href="css/style_gen.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Colecciones | Panel</title>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <img src="img/dashboard.svg" class="logo_panel">
+                <div class="logo_name"> Administración </div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+
+            <li>
+                <a href="panel.html">
+                    <i class='bx bx-home-alt'></i>
+                    <span class="links_name">Inicio</span>
+                </a>
+                <span class="tooltip">Inicio</span>
+            </li>
+
+            <li>
+                <a href="mesas.html">
+                    <i class='bx bx-notepad'></i>
+                    <span class="links_name">Mesas</span>
+                </a>
+                <span class="tooltip">Mesas</span>
+            </li>
+
+            <li>
+                <a href="productos.html">
+                    <i class='bx bx-shopping-bag'></i>
+                    <span class="links_name">Productos</span>
+                </a>
+                <span class="tooltip">Productos</span>
+            </li>
+
+            <li>
+                <a href="usuarios.html">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name">Usuarios</span>
+                </a>
+                <span class="tooltip">Usuarios</span>
+            </li>
+
+            <li>
+                <a href="ventas.html">
+                    <i class='bx bx-cart'></i>
+                    <span class="links_name">Ventas</span>
+                </a>
+                <span class="tooltip">Ventas</span>
+            </li>
+        </ul>
+
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="img/profile.jpg">
+                    <div class="name_job">
+                        <div class="name">Administrador</div>
+                    </div>
+                </div>
+                <i class="bx bx-log-out" id="log_out"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="home_content">
+        <div class="container">
+            <div class="row justify-content-around contenido_inicio">
+
+                <div class="col-10 col-md-11">
+                    <div class="titulo_secion">
+                        <h2 class="pb-3">Productos</h2>
+                        <a href="agregar_producto.html" class="btn_vistas"><i class='bx bx-message-square-add'></i>
+                            Agregar</a>
+                    </div>
+                </div>
+
+                <div class="col-10 col-md-11 panel_v shadow-lg">
+
+                    <div class="contenedor">
+                        <img src="img/articulo-1.png">
+                        <div class="mesas_enlaces">
+                            <p>ALVAREZ RIVAS</p>
+                            <p>20/01/2021</p>
+                            <div class="botonera">
+                                <a href="ver_producto.html" class="btn_gris">Ver</a>
+                                <a href="#" class="btn_rojo">Eliminar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contenedor">
+                        <img src="img/articulo-2.png">
+                        <div class="mesas_enlaces">
+                            <p>ALVAREZ RIVAS</p>
+                            <p>20/01/2021</p>
+                            <div class="botonera">
+                                <a href="ver_producto.html" class="btn_gris">Ver</a>
+                                <a href="#" class="btn_rojo">Eliminar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contenedor">
+                        <img src="img/articulo-3.png">
+                        <div class="mesas_enlaces">
+                            <p>ALVAREZ RIVAS</p>
+                            <p>20/01/2021</p>
+                            <div class="botonera">
+                                <a href="ver_producto.html" class="btn_gris">Ver</a>
+                                <a href="#" class="btn_rojo">Eliminar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contenedor">
+                        <img src="img/articulo-3.png">
+                        <div class="mesas_enlaces">
+                            <p>ALVAREZ RIVAS</p>
+                            <p>20/01/2021</p>
+                            <div class="botonera">
+                                <a href="ver_producto.html" class="btn_gris">Ver</a>
+                                <a href="#" class="btn_rojo">Eliminar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

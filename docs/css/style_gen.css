@@ -1,0 +1,184 @@
+.contenido_inicio {
+    padding-top: 3rem;
+}
+
+.panel_c {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.panel_v {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.titulo_secion {
+    padding-bottom: 3rem;
+}
+
+.titulo_agregar {
+    padding-bottom: 2rem;
+}
+
+.btn_vistas{
+    color: #fff;
+    background: #11101D;
+    text-decoration: none;
+    padding: 0.6rem 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #11101D;
+    transition: 0.3s;
+}
+
+.botonera a:not(:first-child){
+    margin-left: 1rem;
+}
+
+.btn_vistas:hover{
+    color: #11101D;
+    background: #fff;
+    text-decoration: none;
+    border: 1px solid #11101D;
+}
+
+
+.contenedor {
+    display: flex;
+    border-bottom: 1px solid #A5A8A9;
+    padding-bottom: 1rem;
+}
+
+.contenedor:not(:first-child) {
+    padding-top: 1.3rem;
+}
+
+.contenedor img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.mesas_enlaces {
+    margin-left: 1.5rem;
+}
+
+.btn_gris {
+    text-decoration: none;
+    color: #fff;
+    background: #A5A8A9;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #A5A8A9;
+    transition: 0.3s;
+}
+
+.btn_gris:hover {
+    text-decoration: none;
+    color: #A5A8A9;
+    background: #fff;
+    border: 1px solid #A5A8A9;
+}
+
+.btn_rojo {
+    text-decoration: none;
+    color: #fff;
+    background: #e60000;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e60000;
+    transition: 0.3s;
+}
+
+.btn_rojo:hover {
+    text-decoration: none;
+    color: #e60000;
+    background: #fff;
+    border: 1px solid #e60000;
+}
+
+.espacio-panel {
+    margin-top: 2.5rem;
+}
+
+.datos {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario_input{
+    width: 100%;
+    padding: 0.4rem 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.formulario_tarea{
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+
+.formulario_select{
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+
+.formulario table{
+    margin-top: 1.5rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.formulario table, th, td{
+    border: 1px solid #A5A8A9;
+    text-align: center;
+}
+
+.formulario th, td{
+padding: 1rem;
+}
+
+.formulario td img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.disponible{
+    width: 50%;
+}
+
+@media only screen and (max-width:768px) {
+    .contenido_inicio {
+        padding-top: 1.5rem;
+    }
+
+    .espacio-arriba {
+        margin-top: 2rem;
+    }
+
+    .espacio-panel {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .botonera{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .botonera a:not(:first-child){
+        margin-left: 0rem;
+        margin-top: 0.5rem;
+    }
+}
